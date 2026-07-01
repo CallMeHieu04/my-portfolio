@@ -1,103 +1,75 @@
 export const config = {
     developer: {
-        name: "Redoyanul",
-        fullName: "Redoyanul Haque",
-        title: "AI & Full-Stack Developer",
-        description: "AI & Full-Stack Developer building intelligent systems and modern web applications. Passionate about machine learning, deep learning, and creating next-gen autonomous agents."
+        name: "Minh Hiếu",
+        fullName: "Phan Minh Hiếu",
+        title: "Kỹ sư AI & Lập Trình Viên Full-Stack",
+        description: "Kỹ sư AI & Lập trình viên Full-Stack xây dựng các hệ thống thông minh và ứng dụng web hiện đại. Đam mê học máy, học sâu và tạo ra các tác nhân tự động thế hệ tiếp theo."
     },
     social: {
-        github: "red1-for-hek",
-        email: "redoyanul1234@gmail.com",
-        location: "Bangladesh"
+        github: "mihidut",
+        email: "mihidut04@gmail.com",
+        location: "Vietnam"
     },
     about: {
-        title: "About Me",
-        description: "I am a self-taught AI & Full-Stack Developer from Bangladesh. I build intelligent systems, chatbots, and modern web applications. My expertise includes Machine Learning, Deep Learning, NLP, and Full-Stack Web Development with React, Node.js, and Python. Currently building next-gen AI Agents and JARVIS-like Personal Assistants. I have a competitive programming mindset and a deep passion for automation. Code is poetry, AI is the canvas."
+        title: "Giới Thiệu",
+        description: "Tôi là nhà phát triển AI & Full-Stack từ Việt Nam, hiện là sinh viên ngành Công nghệ Thông tin tại trường Đại học Bách khoa - Đại học Đà Nẵng. Tôi chuyên xây dựng các hệ thống thông minh, chatbot và ứng dụng web hiện đại. Thế mạnh của tôi bao gồm Machine Learning, Deep Learning, NLP và phát triển Web Full-Stack với React, Node.js và Python. Hiện tại, tôi đang nghiên cứu và phát triển các AI Agent thế hệ mới cùng các trợ lý ảo thông minh tương tự như JARVIS. Tôi sở hữu tư duy lập trình thi đấu và có niềm đam mê mãnh liệt với tự động hóa. Đối với tôi, Code là thơ ca, còn AI chính là bức họa nghệ thuật."
     },
     experiences: [
         {
-            position: "Learning Something New",
-            company: "Self-Development",
+            position: "Học Điều Gì Đó Mới",
+            company: "Tự Phát Triển Bản Thân",
             period: "2025 - Present",
-            location: "Bangladesh",
-            description: "Continuously exploring emerging technologies, researching advanced AI systems, and pushing the boundaries of what's possible in tech.",
+            location: "Việt Nam",
+            description: "Liên tục khám phá các công nghệ mới nổi, nghiên cứu các hệ thống AI nâng cao và vượt ra ngoài giới hạn của công nghệ.",
             responsibilities: [
-                "Researching cutting-edge AI and ML technologies",
-                "Experimenting with new frameworks and tools",
-                "Contributing to open-source projects",
-                "Building innovative personal projects"
+                "Nghiên cứu các công nghệ AI và ML tiên tiến",
+                "Thử nghiệm với các framework và công cụ mới",
+                "Đóng góp vào các dự án mã nguồn mở",
+                "Xây dựng các dự án cá nhân sáng tạo"
             ],
-            technologies: ["Research", "Innovation", "Open Source", "New Tech"]
+            technologies: ["Nghiên Cứu", "Sáng Tạo", "Mã Nguồn Mở", "Công Nghệ Mới"]
         },
         {
-            position: "AI Engineer",
-            company: "Freelance & Projects",
+            position: "Kỹ Sư AI",
+            company: "Freelance & Dự Án",
             period: "2025",
-            location: "Bangladesh",
-            description: "Developing intelligent AI systems, chatbots, and machine learning solutions. Building next-gen conversational AI agents and JARVIS-like personal assistants.",
+            location: "Việt Nam",
+            description: "Phát triển các hệ thống AI thông minh, chatbot và giải pháp học máy. Xây dựng các tác nhân AI hội thoại thế hệ mới và trợ lý cá nhân kiểu JARVIS.",
             responsibilities: [
-                "Building AI-powered chatbots and conversational agents",
-                "Developing machine learning models with TensorFlow and PyTorch",
-                "Working with LLMs and transformer architectures",
-                "Creating autonomous AI systems and automation tools"
+                "Xây dựng chatbot AI và các tác nhân hội thoại",
+                "Phát triển mô hình học máy với TensorFlow và PyTorch",
+                "Làm việc với LLMs và kiến trúc transformer",
+                "Tạo ra các hệ thống AI tự động và công cụ tự động hóa"
             ],
             technologies: ["Python", "TensorFlow", "PyTorch", "LLMs", "NLP", "AI Agents"]
         },
         {
-            position: "Full-Stack Developer",
-            company: "Freelance & Projects",
+            position: "Lập Trình Viên Full-Stack",
+            company: "Freelance & Dự Án",
             period: "2024",
-            location: "Bangladesh",
-            description: "Built complete web applications from frontend to backend. Developed responsive UIs, RESTful APIs, and database solutions for various clients and projects.",
+            location: "Việt Nam",
+            description: "Xây dựng các ứng dụng web hoàn chỉnh từ frontend đến backend. Phát triển UI responsive, RESTful APIs và giải pháp cơ sở dữ liệu cho nhiều khách hàng và dự án.",
             responsibilities: [
-                "Developing full-stack web applications using React and Node.js",
-                "Building RESTful APIs and integrating databases",
-                "Creating responsive and interactive user interfaces",
-                "Deploying and maintaining web applications"
+                "Phát triển ứng dụng web full-stack bằng React và Node.js",
+                "Xây dựng RESTful APIs và tích hợp cơ sở dữ liệu",
+                "Tạo giao diện người dùng responsive và tương tác",
+                "Triển khai và bảo trì các ứng dụng web"
             ],
             technologies: ["React", "Node.js", "MongoDB", "Express", "Next.js", "TypeScript"]
         },
         {
-            position: "Python Developer",
-            company: "Self-Taught & Projects",
+            position: "Sinh Viên CNTT",
+            company: "Đại học Bách khoa - ĐH Đà Nẵng",
             period: "2023",
-            location: "Bangladesh",
-            description: "Dove deep into Python programming, building automation scripts, bots, and mastering the fundamentals of software development and problem-solving.",
+            location: "Đà Nẵng, Việt Nam",
+            description: "Nhập học ngành Công nghệ Thông tin tại Đại học Bách khoa - Đại học Đà Nẵng. Bắt đầu hành trình học thuật chính thức, tiếp cận các nền tảng lập trình, cấu trúc dữ liệu và thuật toán.",
             responsibilities: [
-                "Learning Python programming and core concepts",
-                "Building automation scripts and Discord bots",
-                "Exploring data structures and algorithms",
-                "Participating in competitive programming"
+                "Học các môn nền tảng CNTT và lập trình",
+                "Khám phá cấu trúc dữ liệu và thuật toán",
+                "Bắt đầu nghiên cứu Python và lập trình thi đấu",
+                "Xây dựng nền tảng tư duy giải quyết vấn đề"
             ],
-            technologies: ["Python", "Automation", "Scripting", "Discord.py", "Problem Solving"]
-        },
-        {
-            position: "Graphic Designer",
-            company: "Freelance",
-            period: "2022",
-            location: "Bangladesh",
-            description: "Started my creative journey as a graphic designer, creating logos, banners, and visual content. This sparked my passion for technology and digital creation.",
-            responsibilities: [
-                "Designing logos and brand identity materials",
-                "Creating social media graphics and banners",
-                "Working with clients on creative projects",
-                "Learning design principles and visual aesthetics"
-            ],
-            technologies: ["Photoshop", "Illustrator", "Canva", "Figma", "Visual Design"]
-        },
-        {
-            position: "Microsoft Office",
-            company: "Begin Learning",
-            period: "2021",
-            location: "Bangladesh",
-            description: "Started my journey into the digital world by learning Microsoft Office tools. This foundational step introduced me to computers and sparked my curiosity for technology.",
-            responsibilities: [
-                "Learning Microsoft Word, Excel, and PowerPoint",
-                "Creating documents and presentations",
-                "Understanding basic computer operations",
-                "Building foundational digital skills"
-            ],
-            technologies: ["MS Word", "MS Excel", "MS PowerPoint", "Computer Basics"]
+            technologies: ["Python", "C++", "Cấu Trúc Dữ Liệu", "Thuật Toán", "Lập Trình Thi Đấu"]
         }
     ],
     projects: [
@@ -122,7 +94,7 @@ export const config = {
             title: "EIE - Earthquake Impact Estimator",
             category: "IoT / Hardware",
             technologies: "Arduino, C++, IoT Sensors, Python, ML, React",
-            image: "/images/eie.png",
+            image: "/images/eie.svg",
             description: "A practical circuit-based IoT system utilizing Arduino to predict earthquakes before they strike. Integrates hardware sensors for real-time seismic detection and impact estimation."
         },
         {
@@ -167,24 +139,23 @@ export const config = {
         }
     ],
     contact: {
-        email: "redoyanul1234@gmail.com",
-        github: "https://github.com/red1-for-hek",
-        linkedin: "https://linkedin.com/in/red1-for-hek",
-        twitter: "https://x.com/red_1_ul",
-        facebook: "https://www.facebook.com/redoyanulhaque.hacker.official",
-        instagram: "https://www.instagram.com/red_1_ul"
+        email: "mihidut04@gmail.com",
+        github: "https://github.com/mihidut",
+        linkedin: "https://linkedin.com/in/mihidut",
+        twitter: "https://x.com/mihidut",
+        facebook: "https://www.facebook.com/hieu.phanminh.1276487/"
     },
     skills: {
         develop: {
-            title: "AI DEVELOPER",
-            description: "Building intelligent systems & AI solutions",
-            details: "Developing AI agents, chatbots, and machine learning models using Python, TensorFlow, and PyTorch. Specializing in LLMs, NLP, deep learning, and autonomous systems.",
+            title: "NHÀ PHÁT TRIỂN AI",
+            description: "Xây dựng hệ thống thông minh & giải pháp AI",
+            details: "Phát triển các AI agent, chatbot và mô hình học máy bằng Python, TensorFlow và PyTorch. Chuyên môn về LLMs, NLP, học sâu và các hệ thống tự hành.",
             tools: ["Python", "TensorFlow", "PyTorch", "OpenCV", "Scikit-learn", "LLMs", "NLP", "Deep Learning", "Chatbots", "AI Agents"]
         },
         design: {
             title: "FULL-STACK",
-            description: "Modern web development & scalable applications",
-            details: "Building responsive and performant web applications using React, Next.js, Node.js, and databases. Creating seamless user experiences with modern UI/UX principles.",
+            description: "Phát triển web hiện đại & ứng dụng mở rộng",
+            details: "Xây dựng các ứng dụng web responsive và hiệu năng cao bằng React, Next.js, Node.js và cơ sở dữ liệu. Tạo ra trải nghiệm người dùng mượt mà với các nguyên tắc UI/UX hiện đại.",
             tools: ["React", "Next.js", "Node.js", "TypeScript", "MongoDB", "PostgreSQL", "TailwindCSS", "REST APIs", "Docker", "Git"]
         }
     }

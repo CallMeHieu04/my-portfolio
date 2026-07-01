@@ -47,7 +47,7 @@ export class TextSplitter {
   }
 
   private splitChars(element: Element) {
-    const text = element.textContent || "";
+    const text = (element.textContent || "").normalize("NFC");
     const chars = text.split("");
     
     element.innerHTML = chars
@@ -66,7 +66,7 @@ export class TextSplitter {
   }
 
   private splitWords(element: Element) {
-    const text = element.textContent || "";
+    const text = (element.textContent || "").normalize("NFC");
     const words = text.split(/(\s+)/);
 
     element.innerHTML = words
@@ -84,7 +84,7 @@ export class TextSplitter {
   private splitCharsFromWords(element: Element) {
     const words = element.querySelectorAll(".split-word");
     words.forEach((word) => {
-      const text = word.textContent || "";
+      const text = (word.textContent || "").normalize("NFC");
       const chars = text.split("");
       word.innerHTML = chars
         .map((char) => `<span class="split-char">${char}</span>`)

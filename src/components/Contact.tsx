@@ -68,13 +68,13 @@ const Contact = () => {
                 {config.contact.email}
               </a>
             </p>
-            <h4>Location</h4>
+            <h4>Địa điểm</h4>
             <p>
               <span>{config.social.location}</span>
             </p>
           </div>
           <div className="contact-box">
-            <h4>Social</h4>
+            <h4>Mạng xã hội</h4>
             <a
               href={config.contact.github}
               target="_blank"
@@ -111,19 +111,11 @@ const Contact = () => {
             >
               Facebook <MdArrowOutward />
             </a>
-            <a
-              href={config.contact.instagram}
-              target="_blank"
-              rel="noopener noreferrer"
-              data-cursor="disable"
-              className="contact-social"
-            >
-              Instagram <MdArrowOutward />
-            </a>
+
           </div>
           <div className="contact-box">
             <h2>
-              Designed and Developed <br /> by <span>{config.developer.fullName}</span>
+              Thiết kế và Phát triển <br /> bởi <span>{config.developer.fullName}</span>
             </h2>
             <h5>
               <MdCopyright /> {new Date().getFullYear()}

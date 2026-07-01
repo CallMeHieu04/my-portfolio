@@ -28,12 +28,7 @@ const WhatIDo = () => {
   return (
     <div className="whatIDO">
       <div className="what-box">
-        <h2 className="title">
-          W<span className="hat-h2">HAT</span>
-          <div>
-            &nbsp;I<span className="do-h2"> DO</span>
-          </div>
-        </h2>
+
       </div>
       <div className="what-box">
         <div className="what-box-in">
@@ -93,7 +88,7 @@ const WhatIDo = () => {
               <p>
                 {config.skills.develop.details}
               </p>
-              <h5>Skillset & tools</h5>
+              <h5>Kỹ năng &amp; công cụ</h5>
               <div className="what-content-flex">
                 {config.skills.develop.tools.map((tool, index) => (
                   <div key={index} className="what-tags">{tool}</div>
@@ -126,7 +121,7 @@ const WhatIDo = () => {
               <p>
                 {config.skills.design.details}
               </p>
-              <h5>Skillset & tools</h5>
+              <h5>Kỹ năng &amp; công cụ</h5>
               <div className="what-content-flex">
                 {config.skills.design.tools.map((tool, index) => (
                   <div key={index} className="what-tags">{tool}</div>

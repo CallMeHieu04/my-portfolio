@@ -339,7 +339,7 @@
   font-size: 28px;
   line-height: 28px;
   font-weight: 500;
-  font-family: "Geist", sans-serif;
+  font-family: "Be Vietnam Pro", sans-serif;
 }
 
 /* .landing-intro h1 span {
@@ -367,7 +367,7 @@
   margin: 0;
   margin-top: -20px;
   margin-left: 20px;
-  font-family: "Geist", sans-serif;
+  font-family: "Be Vietnam Pro", sans-serif;
   font-weight: 600;
   font-size: 28px;
   line-height: 40px;
@@ -394,7 +394,7 @@ h2.landing-info-h2 {
   font-size: 36px;
   width: 150%;
   margin: 0;
-  font-family: "Geist", sans-serif;
+  font-family: "Be Vietnam Pro", sans-serif;
   font-weight: 600;
   position: relative;
   margin-left: -5px;
@@ -497,16 +497,26 @@ h2.landing-info-h2 {
     left: auto;
     right: 66%;
     transform: translate(0%, -50%);
+    z-index: 20;
   }
 
   .landing-info {
     bottom: auto;
     top: 51%;
-    z-index: inherit;
+    z-index: 20;
     text-align: left;
     transform: translate(0%, -50%);
     right: auto;
     left: 66%;
+  }
+
+  .landing-info h2 {
+    font-size: 30px !important;
+    line-height: 34px !important;
+  }
+
+  h2.landing-info-h2 {
+    font-size: 38px !important;
   }
 }
 
@@ -514,29 +524,45 @@ h2.landing-info-h2 {
   .landing-intro {
     top: 40%;
     left: auto;
-    right: 70%;
+    right: 66%;
     transform: translate(0%, -50%);
   }
 
   .landing-info {
     bottom: auto;
     top: 51%;
-    z-index: inherit;
     text-align: left;
     transform: translate(0%, -50%);
     right: auto;
-    left: 70%;
+    left: 66%;
+  }
+
+  .landing-info h2 {
+    font-size: 36px !important;
+    line-height: 40px !important;
+  }
+
+  h2.landing-info-h2 {
+    font-size: 46px !important;
   }
 }
 
 @media screen and (min-width: 1600px) {
+  .landing-intro {
+    right: 64%;
+  }
+
+  .landing-info {
+    left: 64%;
+  }
+
   .landing-intro h2 {
     font-size: 35px;
   }
 
   .landing-intro h1 {
-    font-size: 60px;
-    line-height: 55px;
+    font-size: 55px;
+    line-height: 50px;
   }
 
   .landing-info h3 {
@@ -544,11 +570,11 @@ h2.landing-info-h2 {
   }
 
   .landing-info h2 {
-    font-size: 65px;
-    line-height: 62px;
+    font-size: 45px;
+    line-height: 48px;
   }
 
   h2.landing-info-h2 {
-    font-size: 75px;
+    font-size: 56px;
   }
 }

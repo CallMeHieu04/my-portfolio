@@ -3,8 +3,9 @@ import "./styles/Landing.css";
 import { config } from "../config";
 
 const Landing = ({ children }: PropsWithChildren) => {
-  const nameParts = config.developer.fullName.split(" ");
-  const firstName = nameParts[0] || config.developer.name;
+  const fullNameNFC = config.developer.fullName.normalize("NFC");
+  const nameParts = fullNameNFC.split(" ");
+  const firstName = nameParts[0] || config.developer.name.normalize("NFC");
   const lastName = nameParts.slice(1).join(" ") || "";
 
   return (
@@ -14,10 +15,10 @@ const Landing = ({ children }: PropsWithChildren) => {
           <div className="landing-intro">
             <h2>Hello! I'm</h2>
             <h1>
-              {firstName.toUpperCase()}
+              {firstName.toUpperCase().normalize("NFC")}
               {' '}
               <br />
-              {lastName && <span>{lastName.toUpperCase()}</span>}
+              {lastName && <span>{lastName.toUpperCase().normalize("NFC")}</span>}
             </h1>
           </div>
           <div className="landing-info">
