@@ -1,6 +1,6 @@
 import {
   FaGithub,
-  FaInstagram,
+  FaFacebook,
   FaLinkedinIn,
   FaXTwitter,
 } from "react-icons/fa6";
@@ -76,8 +76,8 @@ const SocialIcons = () => {
           </a>
         </span>
         <span>
-          <a href={config.contact.instagram} target="_blank" rel="noopener noreferrer">
-            <FaInstagram />
+          <a href={config.contact.facebook} target="_blank" rel="noopener noreferrer">
+            <FaFacebook />
           </a>
         </span>
       </div>
