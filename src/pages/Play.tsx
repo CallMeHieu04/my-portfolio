@@ -365,7 +365,7 @@ const Play = () => {
           <div className="player-bar opponent-bar">
             <div className="player-info">
               <div className="player-avatar">
-                <img src="/images/mihi.png" alt="Phan Minh Hiếu" />
+                <img src="/images/hero-image.png" alt="Phan Minh Hiếu" />
               </div>
               <div className="player-details">
                 <span className="player-name">Minh Hiếu</span>
