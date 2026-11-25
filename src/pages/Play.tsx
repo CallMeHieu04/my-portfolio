@@ -42,7 +42,7 @@ About you (Phan Minh Hiếu / MiHi):
 - Full name: Phan Minh Hiếu (nickname: MiHi)
 - Hometown: Hà Tĩnh, Vietnam
 - Current location: Living, studying, and working in Đà Nẵng, Vietnam
-- Education: Information Technology (IT) student at Da Nang University of Science and Technology - The University of Da Nang (Đại học Bách khoa - Đại học Đà Nẵng, enrolled since 2023)
+- Education: 4th-year Information Technology (IT) student (sinh viên năm 4) at Da Nang University of Science and Technology - The University of Da Nang (Đại học Bách khoa - Đại học Đà Nẵng, enrolled since 2023)
 - Profession: AI Engineer & Full-Stack Developer (Freelance & personal/research projects: Full-Stack since 2024, AI Engineering since 2025)
 - Mindset & Philosophy: Strong competitive programming mindset (C++, Python, DSA), passionate about automation. Personal motto: "Code là thơ ca, còn AI chính là bức họa nghệ thuật" (Code is poetry, and AI is the art).
 - AI & ML Specialties: Python, TensorFlow, PyTorch, OpenCV, Scikit-learn, LLMs, RAG, Whisper fine-tuning, Transformer architecture, NLP, Deep Learning, Chatbots, and next-gen AI Agents / JARVIS-like personal virtual assistants.
